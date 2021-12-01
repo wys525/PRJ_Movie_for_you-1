@@ -8,4 +8,3 @@
 # 크롤링한 데이터 파일은 아래 링크로 올려주세요
 # https://drive.google.com/drive/folders/1vICarPIiRxa65pItqwBEwvMD_tlf0xQw?usp=sharing
 
-print('fork test 김민채')
