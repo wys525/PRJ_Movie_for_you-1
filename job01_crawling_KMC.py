@@ -81,3 +81,4 @@ finally:                                # 에러가 나든 작동을 하든 다 
 # df_review.to_csv('./crawling_data/reviews_{}.csv'.format(2018))
 
 #저장할 떄 index = False 안줬음.
+# 히잉 어렵당
