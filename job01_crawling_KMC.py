@@ -31,7 +31,7 @@ driver = webdriver.Chrome('./chromedriver', options=options)
 review_button_xpath = '//*[@id="movieEndTabMenu"]/li[6]/a'
 review_number_xpath = '//*[@id="reviewTab"]/div/div/div[2]/span/em'
 try:
-    for i in range(1, 50): #2018년 총 998개 * 페이지당 20개 영화 * 총 50페이지
+    for i in range(1, 51): #2018년 총 998개 * 페이지당 20개 영화 * 총 50페이지
         url = 'https://movie.naver.com/movie/sdb/browsing/bmovie.naver?open=2018&page={}'.format(i)
         titles = []
         reviews = []
@@ -80,5 +80,4 @@ finally:                                # 에러가 나든 작동을 하든 다 
 # df_review = pd.DataFrame({'title':titles, 'reviews':reviews})
 # df_review.to_csv('./crawling_data/reviews_{}.csv'.format(2018))
 
-
-
+#저장할 떄 index = False 안줬음.
