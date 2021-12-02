@@ -75,3 +75,5 @@ except:
     print('totally error')
 finally:
     driver.close()
+
+# 연습
