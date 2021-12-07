@@ -12,6 +12,6 @@ for sentence in cleaned_token_review:
     cleaned_tokens.append(token)
 # print(cleaned_tokens)
 embedding_model = Word2Vec(cleaned_tokens, size=100, window=4, min_count=20, workers=4, iter=100, sg=1) # gensim 4.0.0 size => vector_size, iter => epochs
-embedding_model.save('./models/word2VecModel_2018_2021.model')
+embedding_model.save('./models/word2VecModel_2015_2021.model')
 print(embedding_model.wv.vocab.keys())
 print(len(embedding_model.wv.vocab.keys()))
